@@ -294,7 +294,7 @@
   }
 
   .desktop {
-    display: block 
+    display: block !important; 
   }
 
   #radio1:checked~.first {

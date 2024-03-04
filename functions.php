@@ -144,7 +144,7 @@ add_action('widgets_init', 'ricardo_landing_page_widgets_init');
 function ricardo_landing_page_scripts()
 {
 	wp_enqueue_style('ricardo-landing-page-style', get_stylesheet_uri(), array(), _S_VERSION);
-	wp_enqueue_style('ricardo-landing-page-style-mobile', get_theme_file_uri('media-query.css'));
+	wp_enqueue_style('ricardo-landing-page-style-mobile', get_theme_file_uri('css/media-query.css'));
 	wp_style_add_data('ricardo-landing-page-style', 'rtl', 'replace');
 
 	wp_enqueue_script('ricardo-landing-page-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true);

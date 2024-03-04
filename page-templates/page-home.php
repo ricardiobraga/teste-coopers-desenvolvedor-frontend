@@ -57,7 +57,7 @@
       echo '<li>' . task_check('invite_colaborators') . ' Invite colaborators</li>';
       echo '<li>' . task_check('dark_mode') . ' Dark mode</li>';
       echo '</ul>';
-      echo '<button class="btn">"' . get_field('plan_button') . '""</button>"';      
+      echo '<a class="btn" href="#get-in-touch" >"' . get_field('plan_button') . '""</a>"';      
       echo '</div>';
       echo '</div>';
       wp_reset_postdata();
@@ -69,7 +69,7 @@
 
 <div class="slider">
   <div class="green-box">
-    <p>good things</p>
+    <h1>good things</h1>
   </div>
   <div class="slides">
 
@@ -146,7 +146,7 @@
     ?>
 
   </div>
-  <section class="section3">
+  <section class="section3" #id="get-in-touch">
     <div class="top">
       <img src="<?php echo get_template_directory_uri() . '/assets/tatiana-avatar.jpg'; ?>" alt="woman avatar">
       <div class="green-box"></div>
